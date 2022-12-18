@@ -1,0 +1,18 @@
+.services__header {
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.services__title {
+    margin-top: 114px;
+}
+
+.services__breadcrumbs {
+    margin-top: 83px;
+}
+
+.services__background {
+    position: absolute;
+    top: 0px;
+    left: -250px;
+}

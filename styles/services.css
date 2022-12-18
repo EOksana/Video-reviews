@@ -1,0 +1,10 @@
+@import url(./basic.css);
+@import url(./blocks/menu.css);
+@import url(./blocks/breadcrumbs.css);
+@import url(./blocks/contacts.css);
+@import url(./blocks/paginator.css);
+@import url(./sections/services-header.css);
+@import url(./sections/header.css);
+@import url(./sections/events.css);
+@import url(./sections/partners.css);
+@import url(./sections/footer.css);
