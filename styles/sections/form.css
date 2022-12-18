@@ -1,0 +1,132 @@
+.form__row {
+    display: flex;
+}
+
+.inner-section {
+    background: #F4F5F5;
+}
+
+.form__input {
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 5px;
+    border: none;
+    background: #FFFFFF;
+    padding: 19px 327px 20px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E;
+}
+
+.form__input--name {
+    letter-spacing: 0.8px;
+}
+
+.form__input:last-child {
+    margin-right: 0;
+}
+
+.form__input::placeholder {
+    color: #666666;
+}
+
+.form__input--textarea {
+    margin-top: 26px;
+    height: 235px;
+    padding-top: 29px;
+}
+
+.placeholder {
+    max-width: 200px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.inner-section__title {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    color: #202020;
+    padding-top: 79px;
+    text-transform: uppercase;
+    padding-bottom: 56px;
+}
+
+.controls__elements {
+    cursor: pointer;
+}
+
+.controls__checkbox:checked~.controls__tag {
+    background: #F2D4C9;
+}
+
+.controls__checkbox {
+    display: none;
+}
+
+.form__controls {
+    display: flex;
+}
+
+.form__controls-title {
+    width: 366px;
+    color: #1A1B1E;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 34px;
+}
+
+.controls__list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 71px;
+    margin-top: 23px;
+}
+
+.controls__item {
+    margin-bottom: 10px;
+    margin-right: 13px;
+
+}
+
+.controls__tag {
+    padding: 9px 15px;
+    color: #303030;
+}
+
+.button__grey {
+    background: #8E8E8E;
+    padding: 18px 40px;
+    color: #FFFFFF;
+    border: 1px solid #8E8E8E
+}
+
+.button__grey:hover {
+    background: #2B2B2B;
+}
+
+.button__send {
+    color: #FFFFFF;
+}
+
+.form__button {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-bottom: 96px;
+
+}
+
+.form__but {
+    margin-right: 13px;
+    width: 168px;
+
+}
+
+.form__but:last-child {
+    margin-right: 0;
+}
