@@ -58,6 +58,7 @@ header {
     top: 125%;
     right: 0;
     display: none;
+    cursor: pointer;
 }
 
 .dropdown__menu::after {
