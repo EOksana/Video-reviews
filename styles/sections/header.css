@@ -41,6 +41,7 @@ header {
 
 .contacts__dropdown-title {
     position: relative;
+    cursor: pointer;
 }
 
 .contacts__dropdown-title:hover .dropdown__menu {
@@ -58,7 +59,6 @@ header {
     top: 125%;
     right: 0;
     display: none;
-    cursor: pointer;
 }
 
 .dropdown__menu::after {
