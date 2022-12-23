@@ -1,6 +1,7 @@
 .services__header {
     position: relative;
     padding-bottom: 22px;
+    overflow: hidden;
 }
 
 .services__title {
